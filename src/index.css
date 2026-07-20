@@ -170,7 +170,7 @@ ul { list-style: none; }
   display: flex; align-items: center;
   position: relative; overflow: hidden;
   padding-top: 70px;
-  background: url('/bg-hero.jpg') center/cover no-repeat;
+  background: url('/smkn2kng/bg-hero.jpg') center/cover no-repeat;
 }
 .hero::before {
   content: '';
