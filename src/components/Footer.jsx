@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-              <img src="/smkn2kng/logo-sekolah.jpg" alt="Logo SMKN 2 Kuningan" className="footer-logo-img" />
+              <img src="/logo-sekolah.jpg" alt="Logo SMKN 2 Kuningan" className="footer-logo-img" />
               <span>SMKN 2 Kuningan</span>
             </div>
             <p>
