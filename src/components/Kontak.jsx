@@ -41,11 +41,16 @@ export default function Kontak() {
             ))}
           </div>
           <div className="kontak-map animate-on-scroll" ref={mapRef}>
-            <div className="map-placeholder">
-              <span>🗺️</span>
-              <p>Peta Lokasi SMKN 2 Kuningan</p>
-              <small>Google Maps Embed</small>
-            </div>
+            <iframe
+              src="https://www.google.com/maps?q=SMKN+2+Kuningan+Jl.+Tentara+Pelajar+No.+1+Kuningan&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0, borderRadius: 'var(--radius-lg)', minHeight: 350 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Peta Lokasi SMKN 2 Kuningan"
+            />
           </div>
         </div>
       </div>
