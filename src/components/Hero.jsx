@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
         <div className="hero-image animate-on-scroll" ref={imageRef}>
           <div className="hero-logo-wrapper">
-            <img src="/smkn2kng/logo-sekolah.jpg" alt="Logo SMKN 2 Kuningan" className="hero-logo-img" />
+            <img src="/logo-sekolah.jpg" alt="Logo SMKN 2 Kuningan" className="hero-logo-img" />
           </div>
         </div>
       </div>
