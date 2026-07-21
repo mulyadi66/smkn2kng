@@ -42,7 +42,7 @@ export default function Navbar({ theme, toggleTheme }) {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <a href="#beranda" className="nav-logo" onClick={() => handleClick('beranda')}>
-          <img src="/smkn2kng/logo-sekolah.jpg" alt="Logo SMKN 2 Kuningan" className="nav-logo-img" />
+          <img src="/logo-sekolah.jpg" alt="Logo SMKN 2 Kuningan" className="nav-logo-img" />
           <span>SMKN 2 Kuningan</span>
         </a>
 
